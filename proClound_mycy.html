@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>民用产业研发平台</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/proClound_mycy.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+            var $oimg=$(".btn_show");
+                $oimg.hover(function(){
+                    $(this).find("a").show();
+                },function(){
+                    $(this).find("a").hide();
+                });
+
+                $(".more").hover(function(){
+                    $(this).show();
+                });
+
+                $(".skill_logoR").find("a").click(function(){
+                    $(this).addClass("now").siblings().removeClass("now");
+                })
+        })
+    </script>
+</head>
+<body>
+<!-- logo begin -->
+<div class="proclound_my_logoCon_box">
+    <div class="proclound_my_logo">
+        <div class="proclound_my_left f_left">
+            <a href="#">
+                <img src="images/procloud-my-logo.png" alt="">
+            </a>
+        </div>
+        <div class="propage_right f_right">
+            <form action="">
+                <div class="propage_ser f_left ">
+                    <h3>找工具</h3>
+                </div>
+                <input type="text"  class="propage_seek f_left">
+                <input type="button" value="搜索" class="propage_res f_left">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="proClound_Menu">
+    <div class="skill_logoR">
+        <a href="javascript:void(0)" class="pur_logoName now">工具服务管理</a>
+        <a href="javascript:void(0)" class="pur_logoName">共性知识服务</a>
+        <a href="javascript:void(0)" class="pur_logoName">设计模型管理</a>
+        <a href="javascript:void(0)" class="pur_logoName">研发数据全生命周期管理</a>
+        <a href="javascript:void(0)" class="pur_logoName">多项目管理</a>
+    </div>
+</div>
+<!-- logo end -->
+<div class="proClound_mycy_logo">
+    <img src="images/proClound_mycy_bg.jpg">
+</div>
+<div class="proClound_mycy_title electron">
+       <div class="proClound_mycy_img">
+           <img src="images/proClound_mycy_01.png">
+       </div>
+       <h1>电子设计开发环境</h1>
+       <p>ELECTRONIC  DESIGN  AND  DEVELOPMENT  ENVIRONMENT</p>
+</div>
+<div class="proClound_mycy_main">
+    <div class="proClound_mycy_content electron">
+        <div class="proClound_mycy_contentLeft f_left">
+            <img src="images/proClound_mycy_04.jpg">
+        </div>
+        <div class="proClound_mycy_contentRight f_right">
+            <div class="proClound_mycy_icon"></div>
+            <h2>实现一体化电子产品开发</h2>
+            <p>支持从设计流程到基于处理器设计的嵌入式软件开发,提供将设计方案从概念转变为最终成品的解决方案。</p>
+            <div class="proClound_mycy_btn">
+                <a href="javascript:void(0)">相关软件</a>
+            </div>
+            <div class="proClound_mycy_menu">
+                <span class="btn_show">
+                     <img src="images/proclound_mycy_07.png">
+                     <a href="javascript:void(0)" class="more">Protel</a>
+                </span>
+                <span class="btn_show">
+                     <img src="images/proclound_mycy_08.png">
+                     <a href="javascript:void(0)" class="more">Eplan</a>
+                </span>
+                <span class="btn_show">
+                     <img src="images/proclound_mycy_09.png">
+                     <a href="javascript:void(0)" class="more">更多软件</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="proClound_mycy_title test common">
+    <div class="proClound_mycy_img">
+        <img src="images/proClound_mycy_10.png">
+    </div>
+    <h1>软件开发与测试环境</h1>
+    <p>SOFTWARE  DEVELOPMENT  AND  TEST  ENVIRONMENT</p>
+</div>
+<div class="proClound_mycy_main common">
+    <div class="proClound_mycy_content test">
+        <div class="proClound_mycy_contentRight f_left">
+            <div class="proClound_mycy_icon"></div>
+            <h2>利用程序设计语言  开发软件系统</h2>
+            <p>支持遵循软件工程规范的软件开发和测试,设计软件的总体结构和模块、编程和调试以及海量数据存储管理。</p>
+            <div class="proClound_mycy_btn">
+                <a href="javascript:void(0)">相关软件</a>
+            </div>
+            <div class="proClound_mycy_menu">
+                <span class="show Loading btn_show">
+                    <img src="images/proclound_mycy_16.png" width="89" height="39">
+                    Loadrunner
+                    <a href="javascript:void(0)" class="more">Loadrunner</a>
+                </span>
+                <span class="show btn_show">
+                    AOP流程快速开发平台(HTX3)
+                    <a href="javascript:void(0)" class="more">AOP-HTX3</a>
+                </span>
+                <span class="show btn_show">
+                    AOP能力开发平台(OpenAPI)
+                    <a href="javascript:void(0)" class="more">AOP-OpenAPI</a>
+                </span>
+                <span class="btn_show round">
+                    <img src="images/proClound_mycy_15.png">
+                    <a href="javascript:void(0)" class="more">更多软件</a>
+                </span>
+            </div>
+        </div>
+        <div class="proClound_mycy_contentLeft f_right">
+            <img src="images/proclound_mycy_13.png">
+        </div>
+    </div>
+</div>
+<div class="proClound_mycy_title invented">
+    <div class="proClound_mycy_img">
+        <img src="images/proclound_mycy_17.png">
+    </div>
+    <h1>虚拟现实开发环境</h1>
+    <p>WIRTUAL  REALITY  DEVELOPMENT  ENVIRONMENT</p>
+</div>
+<div class="clear"></div>
+<div class="proClound_mycy_main">
+    <div class="proClound_mycy_content invented">
+        <div class="proClound_mycy_contentLeft f_left">
+            <img src="images/proClound_mycy_19.png">
+        </div>
+        <div class="proClound_mycy_contentRight f_right">
+            <div class="proClound_mycy_icon"></div>
+            <h2>利用计算机虚拟现实技术  创建虚拟世界</h2>
+            <p>支持绪如建筑可视化、实现三维动画等类型的多平台的综合型开发,设计多源信息融合的、交互式的三维动态视景和实体行为的仿真系统。</p>
+            <div class="proClound_mycy_btn">
+                <a href="javascript:void(0)">相关软件</a>
+            </div>
+            <div class="proClound_mycy_menu">
+                  <span class="btn_show">
+                     <img src="images/proClound_mycy_20.png">
+                     <a href="javascript:void(0)" class="more">Unity</a>
+                </span>
+                <span class="btn_show">
+                     <img src="images/proClound_mycy_21.png">
+                     <a href="javascript:void(0)" class="more">3D Max</a>
+                </span>
+                <span class="btn_show">
+                    <img src="images/proClound_mycy_22.png">
+                    <a href="javascript:void(0)" class="more">更多软件</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="proClound_mycy_title assist common">
+    <div class="proClound_mycy_img">
+        <img src="images/proclound_mycy_24.png">
+    </div>
+    <h1>计算机辅助设计研发环境</h1>
+    <p>COMPUTER  AIDED  DESIGN R & D  ENVIRONMENT</p>
+</div>
+<div class="proClound_mycy_main common">
+    <div class="proClound_mycy_content assist">
+        <div class="proClound_mycy_contentRight f_left">
+            <div class="proClound_mycy_icon"></div>
+            <h2>利用计算机及其图形设备  完成产品设计</h2>
+            <p>支持从项目前阶段、具体的设计、分析、模拟、组装到维护在内的全部工业设计流程,定制产品全生命周期管理(PLM协同解决方案)</p>
+            <div class="proClound_mycy_btn">
+                <a href="javascript:void(0)">相关软件</a>
+            </div>
+            <div class="proClound_mycy_menu">
+                 <span class="btn_show">
+                     <img src="images/proclound_mycy_27.png">
+                     <a href="javascript:void(0)" class="more">AutoCAD</a>
+                </span>
+                <span class="btn_show">
+                     <img src="images/proclound_mycy_28.png">
+                     <a href="javascript:void(0)" class="more">Catia</a>
+                </span>
+                <span class="btn_show">
+                     <img src="images/proclound_mycy_29.png">
+                     <a href="javascript:void(0)" class="more">CAXA</a>
+                </span>
+                <span class="btn_show round">
+                    <img src="images/proclound_mycy_30.png">
+                    <a href="javascript:void(0)" class="more">更多软件</a>
+                </span>
+            </div>
+        </div>
+        <div class="proClound_mycy_contentLeft f_right">
+            <img src="images/proclound_mycy_26.png">
+        </div>
+    </div>
+</div>
+</body>
+</html>
